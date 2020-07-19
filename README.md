@@ -23,14 +23,14 @@ img = cv2.imread(IMAGE_NAME)
 ![Road](https://miro.medium.com/max/600/1*Vhsx_OoRVEeqgFcX56g6Pg.jpeg)
 
 **3. Processing image**
-> **Converting image to grayscale**
+> ** Converting colored image to gray image -> Applying gaussian blur -> Converting to canny -> Applying dilation**
 
 ![Filtered Image](https://miro.medium.com/max/600/1*YK2fRrL_vziybWRGLK0WcA.jpeg)
 
-**4. Area of Interest**
+**4. Area of Interest - Triangle**
 
 ![Area of interest triangle](https://miro.medium.com/max/600/1*yp4X0FFNc-Ht7-Rwpy6bng.jpeg)
 
-**5 Applying Hough Transform to detect line -> Applying gaussian blur -> Converting to canny -> Applying dilation**
+**5 Applying Hough Transform to detect line**
 
 ![Result](https://miro.medium.com/max/1250/1*RKs77nfqXQQ30WnvkAsHHw.png)
